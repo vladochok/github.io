@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<!--
+  Name: Youplay - Game Template based on Bootstrap
+  Version: 3.0.0
+  Author: nK
+  Website: http://nkdev.info
+  Support: http://nk.ticksy.com
+  Purchase: http://themeforest.net/item/youplay-game-template-based-on-bootstrap/11306207?ref=_nK
+  License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+  Copyright 2016.
+-->
+<html>
+
+
+<!-- Mirrored from html.nkdev.info/youplay/dark/blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 May 2016 12:57:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>YouGames</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" href="assets/images/icon.png">
+  <!-- Google Fonts -->
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="../assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" type="text/css" href="../assets/bower_components/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" type="text/css" href="../assets/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="../assets/bower_components/magnific-popup/dist/magnific-popup.css" />
+
+  <!-- Revolution Slider -->
+  <link rel="stylesheet" type="text/css" href="../assets/plugins/slider-revolution/examples%26source/rs-plugin/css/settings.css" />
+
+  <!-- Bootstrap Sweetalert -->
+  <link rel="stylesheet" type="text/css" href="../assets/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" />
+
+  <!-- Social Likes -->
+  <link rel="stylesheet" type="text/css" href="../assets/bower_components/social-likes/dist/social-likes_flat.css" />
+  <!-- Youplay -->
+
+  <link rel="stylesheet" type="text/css" href="../assets/youplay/css/youplay.min.css" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+  <!-- RTL (uncomment this to enable RTL support) -->
+  <!-- <link rel="stylesheet" type="text/css" href="../assets/youplay/css/youplay-rtl.css" /> -->
+
+
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+
+<body>
+
+  <!-- Preloader -->
+  <div class="page-preloader preloader-wrapp">
+    <img src="assets/images/logo.png" alt="">
+    <div class="preloader"></div>
+  </div>
+  <!-- /Preloader -->
+
+  <!-- Navbar -->
+  <nav class="navbar-youplay navbar navbar-default navbar-fixed-top ">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="off-canvas" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index-2.html">
+          <img src="assets/images/logo.png" alt="">
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown dropdown-hover ">
+            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                      Магазин <span class="caret"></span> <span class="label">игры</span>
+                    </a>
+            <div class="dropdown-menu">
+              <ul role="menu">
+                <li><a href="store-1.html">Стиль магазина 1</a>
+                </li>
+                <li><a href="store-2.html">Стиль магазина 2</a>
+                </li>
+                <li><a href="cart.html">Корзина</a>
+                </li>
+              </ul>
+              <ul role="menu">
+                <li><a href="store-product-1.html">Стиль продуктов 1</a>
+                </li>
+                <li><a href="store-product-2.html">Стиль продуктов 2</a>
+                </li>
+                <li><a href="checkout.html">Оплатить</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown dropdown-hover ">
+            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                      Блог <span class="caret"></span> <span class="label">новости</span>
+                    </a>
+            <div class="dropdown-menu">
+              <ul role="menu">
+                <li><a href="blog-1.html">Стиль блога 1</a>
+                </li>
+                <li><a href="blog-2.html">Стиль блога 2</a>
+                </li>
+                <li><a href="blog-3.html">Стиль блога 3</a>
+                </li>
+              </ul>
+              <ul role="menu">
+                <li><a href="blog-post-1.html">Пост блога 1</a>
+                </li>
+                <li><a href="blog-post-2.html">Пост блога 2</a>
+                </li>
+                <li><a href="blog-post-3.html">Пост блога 3</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown dropdown-hover ">
+            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                      Опции <span class="caret"></span> <span class="label">полный список</span>
+                    </a>
+            <div class="dropdown-menu">
+              <ul role="menu">
+                <li class="dropdown dropdown-submenu pull-left ">
+                  <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Пользователь</a>
+                  <div class="dropdown-menu">
+                    <ul role="menu">
+                      <li><a href="user-activity.html">Активность</a>
+                      </li>
+                      <li><a href="user-profile.html">Профиль</a>
+                      </li>
+                      <li><a href="user-messages.html">Сообщения</a>
+                      </li>
+                      <li><a href="user-messages-compose.html">Список сообщений</a>
+                      </li>
+                      <li><a href="user-settings.html">Настройки</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="forums.html">Форум</a>
+                </li>
+                <li><a href="forums-topics.html">Темы форумов</a>
+                </li>
+                <li><a href="forums-single-topic.html">Отдельная тема</a>
+                </li>
+                <li><a href="matches-list.html">Список матчей</a>
+                </li>
+                <li><a href="match.html">Матч</a>
+                </li>
+                <li><a href="match-2.html">Матч с Картами</a>
+                </li>
+              </ul>
+              <ul role="menu">
+                <li><a href="widgets.html">Виджеты <span class="badge bg-default">New</span></a>
+                </li>
+                <li><a href="components.html">Компоненты</a>
+                </li>
+                <li><a href="coming-soon.html">Скоро</a>
+                </li>
+                <li><a href="contact.html">Связатся с нами</a>
+                </li>
+                <li><a href="search.html">Поиск</a>
+                </li>
+                <li><a href="login.html">Логин</a>
+                </li>
+                <li><a href="404.html">404</a>
+                </li>
+                <li><a href="blank.html">Бланк</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown dropdown-hover">
+            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                      Vlad Oksuk <span class="badge bg-default">2</span> <span class="caret"></span> <span class="label">это вы</span>
+                    </a>
+            <div class="dropdown-menu">
+              <ul role="menu">
+                <li><a href="http://html.nkdev.info/youplay/documentation">Документация</a>
+                </li>
+                <li><a href="http://themeforest.net/item/youplay-game-template-based-on-bootstrap/11306207?ref=_nK">Покупка</a>
+                </li>
+                <li class="divider"></li>
+
+                <li><a href="user-profile.html">Профиль <span class="badge pull-right bg-warning">13</span></a>
+                </li>
+                <li><a href="cart.html">Моя корзина <span class="badge pull-right bg-default">3</span></a>
+                </li>
+                <li class="divider"></li>
+
+                <li><a href="login.html">Выйти с профиля</a>
+                </li>
+                <li class="dropdown dropdown-submenu pull-left">
+                  <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Больше...</a>
+                  <div class="dropdown-menu">
+                    <ul role="menu">
+                      <li><a href="#!">Пример 3 уровеня списка</a>
+                      </li>
+                      <li><a href="#!">Пример 3 уровеня списка</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="search-toggle" href="search.html">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+          <li class="dropdown dropdown-hover dropdown-cart">
+            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <i class="fa fa-shopping-cart"></i>
+            </a>
+            <div class="dropdown-menu" style="width: 300px;">
+              <div class="row youplay-side-news">
+                <div class="col-xs-3 col-md-4">
+                  <a href="#" class="angled-img">
+                    <div class="img">
+
+                      <img src="assets/images/game-bloodborne-500x375.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-9 col-md-8">
+                  <a href="#" style="text-decoration: none;" class="pull-right mr-10"><i class="fa fa-times"></i></a>
+
+                  <h4 class="ellipsis"><a href="#">Bloodborne</a></h4>
+                  <span class="quantity">1 × <span class="amount">$50.00</span></span>
+                </div>
+              </div>
+
+              <div class="row youplay-side-news">
+                <div class="col-xs-3 col-md-4">
+                  <a href="#" class="angled-img">
+                    <div class="img">
+
+                      <img src="assets/images/game-kingdoms-of-amalur-reckoning-500x375.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-9 col-md-8">
+                  <a href="#" style="text-decoration: none;" class="pull-right mr-10"><i class="fa fa-times"></i></a>
+
+                  <h4 class="ellipsis"><a href="#">Kingdoms of Amalur</a></h4>
+                  <span class="quantity">1 × <span class="amount">$20.00</span></span>
+                </div>
+              </div>
+
+              <div class="ml-20 mr-20 pull-right"><strong>Итог:</strong>  <span class="amount">$70.00</span>
+              </div>
+
+              <div class="btn-group pull-right m-15">
+                <a href="#" class="btn btn-default btn-sm">Посмотреть корзину</a>
+                <a href="#" class="btn btn-default btn-sm">Оплатить</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- /Navbar -->
+
+
+  <!-- Main Content -->
+  <section class="content-wrap">
+
+    <!-- Banner -->
+    <div class="youplay-banner banner-top youplay-banner-parallax small">
+      <div class="image" style="background-image: url('assets/images/banner-blog-bg.jpg')">
+      </div>
+
+      <div class="info">
+        <div>
+          <div class="container">
+            <h1>Пустая страница</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Banner -->
+
+
+    <div class="container youplay-content">
+
+      <h2 class="mt-0">Пример</h2>
+      <p>
+        Пример пустой страницы...
+      </p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="youplay-footer-parallax">
+      <div class="wrapper" style="background-image: url('assets/images/footer-bg.jpg')">
+
+        <!-- Social Buttons -->
+        <div class="social">
+          <div class="container">
+            <h3>Соединяйте социальные сети с нашим <strong>сайтом</strong></h3>
+
+            <div class="social-icons">
+              <div class="social-icon">
+                <a href="#!">
+                  <i class="fa fa-facebook-square"></i>
+                  <span>Поставить лайк в Facebook'е</span>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="#!">
+                  <i class="fa fa-twitter-square"></i>
+                  <span>Следить в Twitter'е</span>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="#!">
+                  <i class="fa fa-twitch"></i>
+                  <span>Смотреть в Twitch'e</span>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="#!">
+                  <i class="fa fa-youtube-square"></i>
+                  <span>Смотреть в Youtube</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Social Buttons -->
+
+        <!-- Copyright -->
+        <div class="copyright">
+          <div class="container">
+            <strong>Vlad Oksuk</strong> &copy; 2020. Все права соблюдены
+          </div>
+        </div>
+        <!-- /Copyright -->
+
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+
+  </section>
+  <!-- /Main Content -->
+
+  <!-- Search Block -->
+  <div class="search-block">
+    <a href="#!" class="search-toggle glyphicon glyphicon-remove"></a>
+    <form action="http://html.nkdev.info/youplay/dark/search.html">
+      <div class="youplay-input">
+        <input type="text" name="search" placeholder="Search...">
+      </div>
+    </form>
+  </div>
+  <!-- /Search Block -->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="../assets/bower_components/jquery/dist/jquery.min.js"></script>
+
+  <!-- Hexagon Progress -->
+  <script type="text/javascript" src="../assets/bower_components/HexagonProgress/jquery.hexagonprogress.min.js"></script>
+
+
+  <!-- Bootstrap -->
+  <script type="text/javascript" src="../assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- Jarallax -->
+  <script type="text/javascript" src="../assets/bower_components/jarallax/dist/jarallax.min.js"></script>
+
+  <!-- Smooth Scroll -->
+  <script type="text/javascript" src="../assets/bower_components/smoothscroll-for-websites/SmoothScroll.js"></script>
+
+  <!-- Owl Carousel -->
+  <script type="text/javascript" src="../assets/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+
+  <!-- Countdown -->
+  <script type="text/javascript" src="../assets/bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+
+  <!-- Magnific Popup -->
+  <script type="text/javascript" src="../assets/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+
+  <!-- Revolution Slider -->
+  <script type="text/javascript" src="../assets/plugins/slider-revolution/examples%26source/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+  <script type="text/javascript" src="../assets/plugins/slider-revolution/examples%26source/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+  <!-- ImagesLoaded -->
+  <script type="text/javascript" src="../assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+  <!-- Isotope -->
+  <script type="text/javascript" src="../assets/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+
+  <!-- Bootstrap Validator -->
+  <script type="text/javascript" src="../assets/bower_components/bootstrap-validator/dist/validator.min.js"></script>
+
+  <!-- Bootstrap Sweetalert -->
+  <script type="text/javascript" src="../assets/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
+
+  <!-- Social Likes -->
+  <script type="text/javascript" src="../assets/bower_components/social-likes/dist/social-likes.min.js"></script>
+  <!-- Youplay -->
+  <script type="text/javascript" src="../assets/youplay/js/youplay.min.js"></script>
+
+  <!-- init youplay -->
+  <script>
+    if(typeof youplay !== 'undefined') {
+        youplay.init({
+            // enable parallax
+            parallax:         true,
+    
+            // set small navbar on load
+            navbarSmall:      false,
+    
+            // enable fade effect between pages
+            fadeBetweenPages: true,
+    
+            // twitter and instagram php paths
+            php: {
+                twitter: './php/twitter/tweet.php',
+                instagram: './php/instagram/instagram.php'
+            }
+        });
+    }
+  </script>
+
+
+</body>
+
+
+<!-- Mirrored from html.nkdev.info/youplay/dark/blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 May 2016 12:57:56 GMT -->
+</html>
